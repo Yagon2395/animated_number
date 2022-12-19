@@ -3,7 +3,7 @@
 <p>This is an custom widget developed for flutter with some awesome features that will make your users more satisfied when they look into their numbers.</p>
 
 ## Preview
-<img src="https://github.com/Yagon2395/YN.XFCounterLabelControl/blob/master/Images/cenarioAndroid.gif" width="300"/>
+<img src="https://github.com/Yagon2395/animated_number/images/example.gif" width="300"/>
 
 ## Getting started
 
