@@ -1,39 +1,111 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Animated Number flutter package
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
+<p>This is an custom widget developed for flutter with some awesome features that will make your users more satisfied when they look into their numbers.</p>
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Preview
+<img src="https://github.com/Yagon2395/YN.XFCounterLabelControl/blob/master/Images/cenarioAndroid.gif" width="300"/>
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Supported platforms
+
+|             | Android | iOS  | Linux | macOS  | Web | Windows     |
+|-------------|---------|------|-------|--------|-----|-------------|
+| **Support** | SDK 16+ | 9.0+ | Any   | 10.11+ | Any | Any         |
 
 ## Usage
+To use this plugin, add `animated_number` as a [dependency in your pubspec.yaml file](https://docs.flutter.dev/development/packages-and-plugins/using-packages).
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
+### Examples
 ```dart
-const like = 'sample';
+AnimatedNumber(
+    startValue: 0,
+    endValue: 2000,
+    duration: Duration(seconds: 2),
+    isFloatingPoint: false,
+    style: TextStyle(
+    color: Colors.orange,
+    fontSize: 24,
+    ),
+)
 ```
 
-## Additional information
+```dart
+AnimatedNumber(
+    startValue: 0,
+    endValue: 5500.38273626732,
+    duration: Duration(seconds: 5),
+    isFloatingPoint: true,
+    decimalPoint: 4,
+    style: TextStyle(
+        color: Colors.lightBlue,
+        fontSize: 42,
+    ),
+)
+```
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## Features
+<table style="width:100%">
+  <tr>
+    <th>Properties</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>startValue</td>
+    <td>num</td>
+    <td>Desired start value.</td>
+  </tr>
+  <tr>
+    <td>endValue</td>
+    <td>num</td>
+    <td>Desired end value.</td>
+  </tr>
+  <tr>
+    <td>duration</td>
+    <td>Duration</td>
+    <td>Duration for the animation.</td>
+  </tr>
+  <tr>
+    <td>isFloatingPoint</td>
+    <td>bool</td>
+    <td>Flag that controls if the iteration of the animation will be integer or floating point.</td>
+  </tr>
+  <tr>
+    <td>decimalPoint</td>
+    <td>int</td>
+    <td>Desired decimal points.</td>
+  </tr>
+  <tr>
+    <td>style</td>
+    <td>TextStyle?</td>
+    <td>Text style.</td>
+  </tr>
+  <tr>
+    <td>textAlign</td>
+    <td>TextAlign?</td>
+    <td>How the text should be aligned horizontally.</td>
+  </tr>
+  <tr>
+    <td>prefixText</td>
+    <td>String?</td>
+    <td>Desired prefix text.</td>
+  </tr>
+  <tr>
+    <td>sufixText</td>
+    <td>String?</td>
+    <td>Desired sufix text.</td>
+  </tr>
+</table>
+
+### Contact
+<div>
+  Any questions, issues or improvements feel free to contact me.
+  <br>
+  yagon2395@gmail.com
+</div>
+
+### License
+MIT
