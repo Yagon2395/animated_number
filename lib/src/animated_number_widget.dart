@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class AnimatedNumber extends StatefulWidget {
-  /// Start desired value.
+  /// Desired start value.
   final num startValue;
 
-  /// End desired value
+  /// Desired end value
   final num endValue;
 
   /// Duration for the animation.
