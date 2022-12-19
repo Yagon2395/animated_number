@@ -3,3 +3,6 @@
 
 ## 1.0.1
 * Updated package files.
+
+## 1.0.2
+* Updated readme.
