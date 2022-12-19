@@ -3,7 +3,7 @@
 <p>This is an custom widget developed for flutter with some awesome features that will make your users more satisfied when they look into their numbers.</p>
 
 ## Preview
-![Sample](./images/sample.gif)
+![Sample](./images/example.gif)
 
 ## Getting started
 
